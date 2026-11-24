@@ -2471,7 +2471,7 @@ diff -ruN a/qemu-8.2.2/target/mips/tcg/sysemu_helper.h.inc b/qemu-8.2.2/target/m
  DEF_HELPER_1(deret, void, env)
 diff -ruN a/qemu-8.2.2/target/mips/tcg/translate.c b/qemu-8.2.2/target/mips/tcg/translate.c
 --- a/qemu-8.2.2/target/mips/tcg/translate.c	2024-03-04 12:48:16.000000000 -0500
-+++ b/qemu-8.2.2/target/mips/tcg/translate.c	2026-11-11 03:44:50.478000343 -0500
++++ b/qemu-8.2.2/target/mips/tcg/translate.c	2026-11-21 12:51:33.801347176 -0500
 @@ -926,7 +926,9 @@
      OPC_MFC0     = (0x00 << 21) | OPC_CP0,
      OPC_DMFC0    = (0x01 << 21) | OPC_CP0,
